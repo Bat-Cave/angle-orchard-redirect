@@ -1,5 +1,11 @@
-function App() {
-  return <div></div>;
-}
+import Redirect from "./Redirect";
+
+const App = () => {
+  return (
+    <div>
+      <Redirect />
+    </div>
+  );
+};
 
 export default App;
